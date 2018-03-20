@@ -1,0 +1,8 @@
+首先进入到上传文件的目录下
+1、git init       #初始化本地仓库
+2、git add .	/git add filename  #把本地文件添加到本地仓库暂存区		
+3、git commit -m  'message'  #把本地暂存区的文件提交到本地仓库，引号内是备注
+4、git remote add origin  url #把本地仓库和远程仓库相关联 origin是远程仓库别名
+5、git pull rebase origin master #远程仓库不为空，需要把本地仓库和远程仓库同步
+6、git push -u origin master   #把本地仓库中的文件同步到远程仓库中
+7、git status     #查看状态
